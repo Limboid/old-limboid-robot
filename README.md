@@ -1,14 +1,15 @@
 # Limboid
 
-Limboid design, operation, and production repository. For project details, see [limboid.ai].
+Limboid design repository. Design problems can be raised in the issues section of this repo. See wiki for development and operations manual. For project overview, please visit [limboid.ai].
+
+[picture of a limboid]
 
 ## Design Conventions
 
-We describe the Limboid as the integration of 6 systems: power, hydraulic, locomotive, integumentary, signal, and control system. Although distinct, observe their connectedness in information transfer (Control > Signal > Hydraulic > Locomotive), end effector support (Integumentary, Locomotive, and Hydraulic work togethor), and enegry flow (Integumentary (charger) > Power > Hydraulic > Locomotive). As the Limboid evolves, no doubt more systems will join these 6 as these become increasingly integrated. 
+We describe the limboid as the composition of 7 systems: power, hydraulic, skeletal, muscular, integumentary, signal, and control system. Being such an integrated system of systems, these reduced systems do not form the purest model of the limboid. It may also be viewed from the perspective of differing signal mediums (AGI > computer > electrical signals > hydrologic signals > hydraulic flow > muscle actuation > skeleton locomotion), enegry transmission (battery > prime mover > muscles > skeleton), or anatomical location (head, left upper arm, etc., employing same descriptions used for humans) to name a few additional perspectives. Additionally, as the limboid evolves, no doubt more systems will join these 7 as they become increasingly integrated. 
 
 Every subsystem is listed in its own directory containing `index.md` which details the system's:
-- description: what it is and a overview of composition. If composed of subsystems, assemballies, or components, these appear here
-- interfaces: components of this system that are shared with other systems
-- production method: precise details including links to files to produce the system
-
-As each system deals with its own domain of science, engineering, and technology, a subsection labeled `Terminology` appears at times disambiguating the description language that follows.
+- description: what it is
+- composition: how the system is composed; its subassemballies and components
+- production: steps to take after finalizing design and parameters to produce finished system
+- interfaces: components shared across systems are noted here
