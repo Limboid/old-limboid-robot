@@ -16,13 +16,23 @@ A muscle is cotractable soft actuator composed of:
 
 ![individual muscle assembly from muscular system](single_muscle_assembly.png)
 
-Parametrics for all muscles in the muscular system muscles are listed in the 'All_Muscles' spreadsheet in [musclar_system.FCStd](). Depending on their parameters, entries define muscles with varying diameters and lengths.
+Parametrics for all muscles in the muscular system muscles are listed in the 'All_Muscles' spreadsheet in [musclar_system.FCStd]().
+| Parameter Name | Allowed Values | Description |
+| -------------- | -------------- | ----------- |
+| proximal attatchment | any attatchment site | where to make ligament anchor to limboid |
+| proximal ligament | 'hook' or 'screw' | whether the wire is directly sewn into the site or connected by a question mark shaped screw |
+| distal attatchment | any attatchment site | where to make ligament anchor to limboid |
+| distal ligament | 'hook' or 'screw' | whether the wire is directly sewn into the site or connected by a question mark shaped screw |
+| small | 0 or 1 | whether the muscle has small profile or not |
+| large | 0 or 1 | whether the muscle has large profile or not |
+| tube length | length | exposed length of relaxed constrictable muscle tubing |
+| hydraulic line length | length | length of line delivering hydraulic fluid and energy to muscle from hydraulic core |
 
 ## Production
 
 1 Purchase the required length/amount of items listed in the 'Purchase' spreadsheet in [musclar_system.FCStd]() by visiting the linked sources and entering the correct values. At times, notes are supplied to help.
-2 3d print the required amount of [large distal end caps](large_distal_end_cap.stl), [large proximal end caps](large_proximal_end_cap.stl), [small distal end caps](small_distal_end_cap.stl), and [small proximal end caps](small_proximal_end_cap.stl), as directed by the '3D Print' spreadsheet in [musclar_system.FCStd][].
-	- if you want to ensure fit, first print a few and test them with the tubing you ordered. Adjust parameters in 'Globals' spreadsheet in [musclar_system.FCStd][] as needed. Then reexport end cap .stl files. Please comment with parameters that worked with your sources. "Note that the master document [musclar_system.FCStd] must be loaded for the values in the master to be available to the dependent document [proximal and distal end cap FCStd files]." ([https://www.freecadweb.org/wiki/Expressions]())
+2 3d print the required amount of 'large distal end cap', 'large proximal end cap', 'small distal end cap', and 'small proximal end cap' parts in [muscular_system.FCStd][], as directed by the '3D Print' spreadsheet in [musclar_system.FCStd][].
+	- if you want to ensure fit, first print a few and test them with the tubing you ordered. Adjust parameters in 'Globals' spreadsheet in [musclar_system.FCStd][] as needed
 3 Assemble muscles
 4 Glue wires and tubing in place
 5 Attatch to skeleton
