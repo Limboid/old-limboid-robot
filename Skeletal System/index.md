@@ -30,6 +30,7 @@ The many parts of the skeleton are categorized into either sub-assemblies or as 
 
 ### Inter-assembly parts
 
+- scapula beam
 - L/R humerus beam
 - L/R radius and ulna beams
 - spine beam

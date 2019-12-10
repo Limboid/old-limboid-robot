@@ -9,6 +9,7 @@ Provides electrical signal interface between Raspberry Pi 4 computer and rest of
 The Raspberry Pi 4 (RPi4) interfaces with the following components:
 - 2 eyes
 - 2 ears
+- 2 lights
 - display
 - speaker
 - accelometer

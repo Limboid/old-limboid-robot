@@ -4,7 +4,7 @@ Limboid design repository. Design problems can be raised in the issues section o
 
 [picture of a limboid]
 
-We describe the limboid as an integrated system of 7 systems: power, hydraulic, skeletal, muscular, integumentary, signal, and control system. Being such an integrated system of systems, these reduced systems do not form the purest model of the limboid. It may also be viewed from the perspective of differing signal mediums (AGI &rarr; computer &rarr; electrical signals &rarr; hydrologic signals &rarr; hydraulic flow &rarr; muscle actuation &rarr; skeleton locomotion), enegry transmission (battery &rarr; prime mover &rarr; muscles &rarr; skeleton), or anatomical situation (head, left upper arm, etc., employing same descriptions used in human anatomy) to name a few additional perspectives. Additionally, as the limboid evolves, no doubt more systems will join these 7.
+We describe the limboid as an integrated system of 7 systems: [power](power system/index.md), [hydraulic](hydraulic system/index.md), [skeletal](skeletal system/index.md), [muscular](muscular system/index.md), [integumentary](integumentary system/index.md), [signal](signal system/index.md), and [control](control system/index.md) system. Being such an integrated system of systems, these reduced systems do not form the purest model of the limboid. It may also be viewed from the perspective of differing signal mediums (AGI &rarr; computer &rarr; electrical signals &rarr; hydrologic signals &rarr; hydraulic flow &rarr; muscle actuation &rarr; skeleton locomotion), enegry transmission (battery &rarr; prime mover &rarr; muscles &rarr; skeleton), or anatomical situation (head, left upper arm, etc., employing same descriptions used in human anatomy) to name a few additional perspectives. Additionally, as the limboid evolves, no doubt more systems will join these 7.
 
 ## Quick Build
 
@@ -21,6 +21,7 @@ Every subsystem is listed in its own directory containing `index.md` which detai
 ### Parametrics
 
 Global variables referenced by GLOBAL_VAR_NAME appear at times within designs. Currently these variables are:
+
 | Name | Domain | Notes |
 | ---- | ------ | ----- |
 | HEIGHT | 1 600 mm - 1 900 mm | |

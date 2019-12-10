@@ -1,0 +1,21 @@
+# Superior Spine
+
+## Parts
+
+<4in 0.25in steel rod
+2x 0.25in ID shaft hub
+>8 bearing balls
+
+## 3D Print
+
+- spine substrate
+- scapula substrate
+- posterior sandwhich
+- front sandwhich
+
+## Assembly
+
+1. align components on shaft
+2. insert bearing balls
+3. cap shaft with shaft hubs
+4. remove excess shaft length
