@@ -1,5 +1,7 @@
 # Limboid
 
+ℹ️ **This project has moved to [Limboid/limboid-robot](https://github.com/Limboid/limboid-robot).** 
+
 Limboid design repository. Design problems can be raised in the issues section of this repo. See wiki for development and operations manual. For project overview, please visit [limboid.ai].
 
 [picture of a limboid]
